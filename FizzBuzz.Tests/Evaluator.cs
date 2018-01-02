@@ -18,7 +18,7 @@ namespace FizzBuzz.Tests
             Assert.AreEqual(expected, actual);
         }
 
-        [TestMethod]
+        [DataTestMethod]
         public void Evaluate_DivisibleByThree_ReturnsFizz()
         {
             // arrange
