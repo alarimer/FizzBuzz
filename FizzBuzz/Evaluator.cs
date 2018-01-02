@@ -8,7 +8,7 @@ namespace FizzBuzz
         {
             if (number == 3)
             {
-                return "Buzz";
+                return "Fizz";
             }
             return number;
         }
