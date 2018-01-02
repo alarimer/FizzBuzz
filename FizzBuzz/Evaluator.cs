@@ -6,7 +6,7 @@ namespace FizzBuzz
     {
         public static object Evaluate(int expected)
         {
-            throw new NotImplementedException();
+            return expected;
         }
     }
 }
