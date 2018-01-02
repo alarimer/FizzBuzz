@@ -27,7 +27,7 @@ namespace FizzBuzz.Tests
             var expected = "Fizz";
 
             // act
-            var actual = FizzBuzz.Evaluator.Evaluate(3);
+            var actual = FizzBuzz.Evaluator.Evaluate(value);
 
             // assert
             Assert.AreEqual(expected, actual);
