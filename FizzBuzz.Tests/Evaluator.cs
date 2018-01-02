@@ -3,7 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace FizzBuzz.Tests
 {
     [TestClass]
-    public class UnitTest1
+    public class Evaluator
     {
         [TestMethod]
         public void TestMethod1()
