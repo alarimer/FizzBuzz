@@ -6,6 +6,10 @@ namespace FizzBuzz
     {
         public static object Evaluate(int number)
         {
+            if (number == 3)
+            {
+                return "Buzz";
+            }
             return number;
         }
     }
