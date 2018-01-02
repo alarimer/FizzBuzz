@@ -9,11 +9,13 @@ namespace FizzBuzz.Tests
         public void Method_Scenario_Expectation()
         {
             // arrange
+            var goal = 0;
 
             // act
+            var result = 1;
 
             // assert
-
+            Assert.AreEqual(result, goal);
         }
     }
 }
