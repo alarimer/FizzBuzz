@@ -30,5 +30,18 @@ namespace FizzBuzz.Tests
             // assert
             Assert.AreEqual(expected, actual);
         }
+
+        [TestMethod]
+        public void Evaluate_DivisibleByThree_ReturnsFizz_1()
+        {
+            // arrange
+            var expected = "Fizz";
+
+            // act
+            var actual = FizzBuzz.Evaluator.Evaluate(3);
+
+            // assert
+            Assert.AreEqual(expected, actual);
+        }
     }
 }
