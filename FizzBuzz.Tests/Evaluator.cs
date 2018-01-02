@@ -6,13 +6,13 @@ namespace FizzBuzz.Tests
     public class Evaluator
     {
         [TestMethod]
-        public void Method_Scenario_Expectation()
+        public void Evaluate_NeitherDivisibleByThreeNorFive_ReturnsNumber()
         {
             // arrange
-            var expected = 0;
+            var expected = 2;
 
             // act
-            var actual = 1;
+            var actual = FizzBuzz.Evaluator.Evaluate(expected);
 
             // assert
             Assert.AreEqual(expected, actual);
