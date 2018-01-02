@@ -6,8 +6,14 @@ namespace FizzBuzz.Tests
     public class Evaluator
     {
         [TestMethod]
-        public void TestMethod1()
+        public void Method_Scenario_Expectation()
         {
+            // arrange
+
+            // act
+
+            // assert
+
         }
     }
 }
