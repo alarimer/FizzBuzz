@@ -19,6 +19,7 @@ namespace FizzBuzz.Tests
         }
 
         [DataTestMethod]
+        [DataRow(3)]
         public void Evaluate_DivisibleByThree_ReturnsFizz()
         {
             // arrange
