@@ -6,7 +6,7 @@ namespace FizzBuzz
     {
         public static object Evaluate(int number)
         {
-            if (number == 3)
+            if (number % 3 == 0)
             {
                 return "Fizz";
             }
