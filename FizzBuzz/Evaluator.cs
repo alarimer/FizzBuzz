@@ -4,9 +4,9 @@ namespace FizzBuzz
 {
     public class Evaluator
     {
-        public static object Evaluate(int expected)
+        public static object Evaluate(int number)
         {
-            return expected;
+            return number;
         }
     }
 }
