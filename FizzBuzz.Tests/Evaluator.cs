@@ -20,7 +20,7 @@ namespace FizzBuzz.Tests
 
         [DataTestMethod]
         [DataRow(3)]
-        public void Evaluate_DivisibleByThree_ReturnsFizz()
+        public void Evaluate_DivisibleByThree_ReturnsFizz(int value)
         {
             // arrange
             var expected = "Fizz";
